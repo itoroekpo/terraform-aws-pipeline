@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "itoro-cicd-pipeline"
+    bucket = "itoro-cicd"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
